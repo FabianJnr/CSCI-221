@@ -1,0 +1,27 @@
+Black-Box Testing:
+
+1. TEST_1:  This will test the relu function on an empty array. The input is an empty array with length of 0. The expected output is an 
+            empty array. I chose this test because, I want to check how the relu function handles an empty array.
+            array = [], length = 0
+
+2. TEST_2:  This will test the relu function on an array which has all its elements being greater than 0. The expected output is the same 
+            array. I chose this test to check if the relu function really leaves all elements greater than 0 unchanged. 
+            array = [1,2,3,4,5,6,7,8], length = 8
+
+3. TEST_3:  This will test the relu function on an array with all of its elements less than 0. The expected output is an array with all of
+            its elements being 0. I chose this test to see if the relu function correctly replaces all negative elements with zero.
+            array = [-1,-2,-3,-4]m length = 4
+
+4. TEST_4:  This test will check the relu function's behavior on an array with a mix of elements greater than and less than 0. The 
+            expected output is an array with elements less than 0 replaced with 0. I chose this to test if the relu function replaces 
+            elements less than 0, leaving the ones greater than 0.
+            array = [-1,-2,-3,-4,5,6,7,8], length = 8
+
+5. TEST_5:  This is to test the relu function on an array containing elements equal to, greater than and less than 0. The expected output
+            is an array with all the elements less than zero replaced with 0. I chose this to test if the relu function replaces 
+            elements less than 0, leaving the ones greater than and equal to 0. 
+            array = [-1,-2,-3,4,5,6,0,0,0], length = 9
+
+6. TEST_6:  This test will check how the relu function behaves on an array containing only zeros. The expected output will be the same array 
+            containing all zeros. I chose this to check if the relu function really leaves an array with all zero elements unchanged.
+            array = [0,0,0,0,0,0,0], length = 7

@@ -1,0 +1,29 @@
+1.  41-bit unsigned integers:
+
+        * minimum  =  0
+
+        * maximum  =  2^(41) - 1
+                   =  2199023255551
+
+2.  41-bit signed integers:
+
+        * minimum = -1 * 2^(41-1)
+                  = -1099511627776
+
+        * maximum = 2^(41-1) - 1
+                  = 1099511627775
+
+3.  9-bit unsigned integers:
+
+        * minimum = 0
+
+        * maximum = 2^(9) - 1
+                  = 511
+        
+4.  9-bit signed integers:
+
+        * minimum = -1 * 2^(9-1)
+                  = -256
+        
+        * maximum = 2^(9-1) - 1
+                  = 255
